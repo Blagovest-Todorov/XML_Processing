@@ -17,7 +17,6 @@ namespace XmlDemos
     {
         static void Main(string[] args)
         {
-
             XDocument doc = new XDocument(); /// Create the Object XML Document
 
             var root = new XElement("library"); /// Create root XML Tag <library>
@@ -39,9 +38,7 @@ namespace XmlDemos
             for (int i = 0; i < str.Length; i++)
             {
                 Console.Write(str[i]);
-            }
-
-            
+            }            
         }
     }
 }
